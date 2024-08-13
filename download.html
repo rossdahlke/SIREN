@@ -3,26 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Download APK - SIREN Project</title>
+    <title>SIREN Project - Download APK</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <!-- Add header content similar to index.html -->
+        <div class="container">
+            <h1>SIREN Project</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="consent.html">Informed Consent</a></li>
+                    <li><a href="terms.html">Terms of Service</a></li>
+                    <li><a href="download.html" class="active">Download APK</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
     <main>
-        <h2>Download APK</h2>
-        <div id="password-form">
-            <label for="password">Enter Password:</label>
-            <input type="password" id="password">
-            <button onclick="checkPassword()">Submit</button>
-        </div>
-        <div id="download-link" style="display: none;">
-            <a href="path/to/your/app.apk" download>Download SIREN APK</a>
+        <div class="container">
+            <h2>Download APK</h2>
+            <div id="password-form">
+                <label for="password">Enter Password:</label>
+                <input type="password" id="password">
+                <button onclick="checkPassword()">Submit</button>
+            </div>
+            <div id="download-link" style="display: none;">
+                <a href="path/to/your/app.apk" download class="button">Download SIREN APK</a>
+            </div>
         </div>
     </main>
     <footer>
-        <!-- Add footer content -->
+        <div class="container">
+            <p>&copy; 2023 SIREN Project. All rights reserved.</p>
+        </div>
     </footer>
     <script src="script.js"></script>
 </body>
