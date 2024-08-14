@@ -3,7 +3,7 @@ function createFooter() {
     const container = document.createElement('div');
     container.className = 'container';
     const p = document.createElement('p');
-    p.textContent = '© 2023 SIREN Project. All rights reserved.';
+    p.textContent = '© 2024 SIREN Project. All rights reserved.';
     container.appendChild(p);
     footer.appendChild(container);
     return footer;
