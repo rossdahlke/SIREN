@@ -5,6 +5,7 @@ function createNavigation() {
         { href: "consent.html", text: "Informed Consent" },
         { href: "terms.html", text: "Terms of Service" },
         { href: "privacy.html", text: "Privacy Notice" },
+        { href: "instructions.html", text: "Installation Instructions" },
         { href: "download.html", text: "Download APK" }
     ];
 
